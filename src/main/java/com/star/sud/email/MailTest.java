@@ -6,14 +6,14 @@ package com.star.sud.email;
 public class MailTest {
 
 	public static void main(String[] args) {
-		// change accordingly 
-		String from = "sudarsha@gmail.com";
-		String password = "*****";
-		String to = "sudarsha@gmail.com,sudarsha@gmail.com";
-		String cc = "sudarsha@gmail.com,sudarsha@gmail.com";
+		// change accordingly
+		String from = "sudarshan@gmail.com";
+		String password = "******";
+		String to = "sudarshan@gmail.com,sudarshan@gmail.com";
+		String cc = "sudarshan@gmail.com,sudarshan@gmail.com";
 		String subject = "Email from Java";
-		String message = "Email code checking!!!";
-		String attchment = "D://mail-test/technology-list.txt,D://mail-test/business-list.txt";
+		String message = "Email code Testing!!!";
+		String attchment = "C://Users/Sudarshan/Desktop/readMe.txt,C://Users/Sudarshan/Desktop/welcome.txt";
 
 		String successMessage = "";
 
@@ -25,6 +25,6 @@ public class MailTest {
 
 		successMessage = EmailConfiguration.sendMailWithAttachment(from, password, to, cc, subject, message, attchment);
 		System.out.println(successMessage);
-
 	}
+
 }
