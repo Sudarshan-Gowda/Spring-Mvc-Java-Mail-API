@@ -17,5 +17,6 @@
  
  If you have any queries regarding this repository means feel free to comment.
  
- Thank you guys & have a good day,                                                                                                         
- Sudarshan
+ <img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-Java-Mail-API/blob/master/docs/Picture1.PNG"/>
+ <img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-Java-Mail-API/blob/master/docs/Picture2.PNG"/>
+ 
